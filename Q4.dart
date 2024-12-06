@@ -2,7 +2,8 @@
 // Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32
 
 import 'dart:io';
-void main () {
+
+void main() {
   int temp = 40;
   print("Enter temperature in Celsius:");
   var input = stdin.readLineSync()!;
