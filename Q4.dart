@@ -4,9 +4,12 @@
 import 'dart:io';
 
 void main() {
-  int temp = 40;
+  int temperature = 40;
   print("Enter temperature in Celsius:");
-  var input = stdin.readLineSync()!;
+//  var temperature  = stdin.readLineSync()!;
+//  num.parse(temperature);
+ 
+ var input = stdin.readLineSync()!;
   double celsius = double.parse(input);
   double fahrenheit = (celsius * 9 / 5) + 32;
   {
