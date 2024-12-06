@@ -8,8 +8,8 @@ void main() {
   print("Enter temperature in Celsius:");
 //  var temperature  = stdin.readLineSync()!;
 //  num.parse(temperature);
- 
- var input = stdin.readLineSync()!;
+
+  var input = stdin.readLineSync()!;
   double celsius = double.parse(input);
   double fahrenheit = (celsius * 9 / 5) + 32;
   {
