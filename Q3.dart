@@ -5,14 +5,14 @@
 // is allowed to sit in exam or not?
 
 void main() {
-int classesHeld = 16;
-int classesAttended = 10;
-double percentageAttended = (classesAttended / classesHeld) * 100;
-print(
-'Percentage of class attended: ${percentageAttended.toStringAsFixed(2)}%');
-if (percentageAttended >= 75) {
-print('student’s attendance is not eligible for Exam.');
-} else {
-print('student’s attendance is eligible for Exam.');
-}
+  int classesHeld = 16;
+  int classesAttended = 10;
+  double percentageAttended = (classesAttended / classesHeld) * 100;
+  print(
+      'Percentage of class attended: ${percentageAttended.toStringAsFixed(2)}%');
+  if (percentageAttended >= 75) {
+    print('student’s attendance is not eligible for Exam.');
+  } else {
+    print('student’s attendance is eligible for Exam.');
+  }
 }

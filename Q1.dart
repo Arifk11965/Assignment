@@ -4,8 +4,9 @@
 //
 
 void main() {
-  int length = 5;
-  int breadth = 25;
+  int length = 50;
+ int breadth = 25;
+  
   if (length == breadth) {
     print("Selected Ranges Represent The shape is = square.");
   } else {
