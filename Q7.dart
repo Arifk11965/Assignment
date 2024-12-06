@@ -3,7 +3,7 @@
 // i.e: Percentage should be rounded upto 2 decimal places only.
 
 void main() {
-String studentName = 'Arif Khan;
+String studentName = 'Arif Khan';
 String studentRollNumber = '341718';
 String studentClass = 'Flutter-Batch 4';
 // Marks of 5 subjects
