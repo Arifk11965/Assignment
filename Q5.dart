@@ -8,7 +8,6 @@
 
 void main() {
   num temperature = 42;
-
   if (temperature < 0) {
     print("Freezing weather");
   } else if (temperature >= 0 && temperature < 10) {
