@@ -1,4 +1,4 @@
-// Q.10: Write a Dart code thakes in a list of strings and removes any duplicate elements, returning a new list without duplicates. Th eder of elements in the new list should be the same as in the original list.
+// Q.10: Write a Dart code thakes in a list of strings and removes any duplicate elements, returning a new list without duplicates. Th order of elements in the new list should be the same as in the original list.
 void main() {
   List<String> names = [
     'Bilal',
@@ -7,8 +7,9 @@ void main() {
     'Bilal',
     'Salman',
     'Amin',
-    'shahzad'
+    'shahzad',
+    'Arif',
   ];
-  List<String> uniqueNames = names.toSet().toList();
+  List uniqueNames = names.toSet().toList();
   print('Unique names: $uniqueNames');
 }
